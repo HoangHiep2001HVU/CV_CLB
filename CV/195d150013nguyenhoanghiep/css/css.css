@@ -7,8 +7,14 @@
 
 body {
     width: 100%;
-    background-color: #fff;
+    background-color: #3f3e45;
+}
+
+.body {
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
+    box-shadow: 20px 20px 50px grey;
 }
 
 .left {
@@ -34,6 +40,7 @@ body {
     margin-top: 20px;
     background-color: #f07124;
     width: 100%;
+    padding: 20px 0px;
 }
 
 .txt_name h1, .txt_name p {
@@ -61,4 +68,120 @@ body {
     border-radius: 0px 10px 10px 0px;
     margin-left: 20%;
     color: #fff;
+}
+
+.left .txt {
+    margin: 20px 0px 20px 20px;
+}
+
+.left i {
+    color: #fff;
+    padding: 10px;
+    width: 40px;
+    border-radius: 20%;
+    background-color: #f07124;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.left .txt p{
+    color: #fff;
+    margin: 10px;
+}
+
+.right {
+    background: #fff;
+    padding: 5%;
+    width: 65%;
+}
+
+.right p {
+    font-size: 18px;
+}
+
+.right h2 {
+    color: #f07124;
+}
+
+.target i {
+    color: #fff;
+    padding: 5px;
+    width: 30px;
+    background-color: #f07124;
+    margin: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.target, .education, .exp {
+    margin-bottom: 30px;
+}
+
+.hr {
+    background-color: #f07124;
+    height: 2px;
+}
+
+.education {
+    margin-top: 20px;
+}
+
+.date {
+    background: #f7f7f7;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.education .txt, .exp .txt, .achievements .txt {
+    border-left: 2px solid #f07124;
+    padding-left: 20px;
+}
+
+.right p {
+    line-height: 32px;
+}
+
+.right span {
+    font-weight: bold;
+}
+
+h4 {
+    color: #f07124;
+    font-size: 20px;
+}
+
+.app {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    margin-top: 10px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.code, .office {
+    width: 50%;
+}
+
+.office {
+    border-left: 3px solid #f07124;
+    padding-left: 30px;
+}
+
+.office .item {
+    width: 100%;
+}
+
+.app h2 {
+    text-align: center;
+}
+
+.app h4 {
+    color: #000;
+}
+
+.achievements {
+    margin-top: 30px;
 }

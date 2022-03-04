@@ -52,7 +52,7 @@
                     <br> <i class="fas fa-angle-double-right"></i> Marketing online
                 </p>
             </div>
-            <img class="body-img2" src="./public/image/mau-banner-dep.jpg" alt="banner CLB">
+            <img class="body-img2" src="./public/image/logo_ptlab.jpg" alt="banner CLB">
         </div>
         <div class="bg_img2">
             <img src="./public/image/bg_bd2.jpg" alt="background">
